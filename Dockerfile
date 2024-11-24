@@ -14,4 +14,4 @@ COPY . .
 RUN chown -R www-data:www-data /var/www/html
 
 # Откройте порт 80
-EXPOSE 80
+EXPOSE 8080
